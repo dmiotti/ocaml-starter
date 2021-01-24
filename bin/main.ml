@@ -1,6 +1,3 @@
-open Lib
+open Web
 
-let () = 
-  print_endline "Hello, world!";
-  let result = Math.add 3 2 in
-  print_endline (string_of_int result)
+let () = App.run()
